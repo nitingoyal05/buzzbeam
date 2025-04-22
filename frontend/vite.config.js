@@ -7,5 +7,12 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   optimizeDeps: {
     include: ['framer-motion']
+   
+  },
+  server: {
+    port: 3000,
+    open: true,
+    host: 'buzzbeammedia.in',
+    strictPort: true
   }
 });

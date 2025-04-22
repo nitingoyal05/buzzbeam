@@ -30,8 +30,8 @@ const Footer = () => {
     { 
       title: 'Contact', 
       links: [
-        { name: 'mediabuzzbeam@gmail.com', path: 'mailto:hello@buzzbeam.com' },
-        { name: '+91 8894947990', path: 'tel:+15551234567' },
+        { name: 'mediabuzzbeam@gmail.com', path: 'mailto:mediabuzzbeam@gmail.com' },
+        { name: '+91 8894947990', path: 'tel:+91 8894947990' },
         { name: 'Chandigarh , India', path: '#', extraClass: 'cursor-default' },
       ]
     },
